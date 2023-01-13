@@ -2948,6 +2948,9 @@
     }
     
     @media(max-width: 1366px) {
+        .rightside-menu__images {
+            display: none;
+        }
         .collection {
             -ms-grid-columns: (1fr);
             grid-template-columns: repeat(3, 1fr)
